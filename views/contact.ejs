@@ -1,0 +1,21 @@
+<%- include('partials/Header') -%>
+<div style="height: 70vh;">
+     <center>
+          <h1>ContactUs</h1>
+          <form method="post">
+               <label for="name">Name</label>
+               <input 
+                    type="text" 
+                    name="fname" 
+                    required
+                    autofocus
+                    autocomplete="off"
+                    oninvalid="this.setCustomValidity('Please enter your name.!')"
+                    oninput="this.setCustomValidity('')"
+                    placeholder="Enter name"
+               />
+               <button>Submit</button>
+          </form>
+     </center>
+</div>
+<%- include('partials/footer') -%>

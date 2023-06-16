@@ -1,0 +1,40 @@
+body{
+     background-color: aquamarine;
+     margin: 0;
+     font: 100 cursive;
+}
+
+a{
+     text-decoration: none;
+}
+
+nav{
+     background-color: lightcoral !important;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+}
+
+nav main ul{
+     display: flex;
+     justify-content: space-between;
+}
+
+li{
+     margin: 20px;
+}
+
+footer{
+     background-color: black;
+     color: white;
+     display: grid;
+     padding: 10px;
+     height: 18vh;
+     grid-template-columns: 2fr 1fr 1fr 1fr;
+     text-align: center;
+}
+
+footer div{
+     padding-top: 30px;
+}
+
